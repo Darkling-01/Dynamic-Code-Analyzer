@@ -67,8 +67,8 @@ build CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Parser.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\dynamic_code_analyzer.dir
   OBJECT_FILE_DIR = CMakeFiles\dynamic_code_analyzer.dir\src\analyzer
 
-build CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Metrices.cpp.obj: CXX_COMPILER__dynamic_code_analyzer_Debug C$:/Users/barra/Documents/dynamic-code_analyzer/src/analyzer/Metrices.cpp || cmake_object_order_depends_target_dynamic_code_analyzer
-  DEP_FILE = CMakeFiles\dynamic_code_analyzer.dir\src\analyzer\Metrices.cpp.obj.d
+build CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Matrices.cpp.obj: CXX_COMPILER__dynamic_code_analyzer_Debug C$:/Users/barra/Documents/dynamic-code_analyzer/src/analyzer/Matrices.cpp || cmake_object_order_depends_target_dynamic_code_analyzer
+  DEP_FILE = CMakeFiles\dynamic_code_analyzer.dir\src\analyzer\Matrices.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\dynamic_code_analyzer.dir
   OBJECT_FILE_DIR = CMakeFiles\dynamic_code_analyzer.dir\src\analyzer
@@ -97,8 +97,8 @@ build CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_parser.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\dynamic_code_analyzer.dir
   OBJECT_FILE_DIR = CMakeFiles\dynamic_code_analyzer.dir\src\tests
 
-build CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_metrices.cpp.obj: CXX_COMPILER__dynamic_code_analyzer_Debug C$:/Users/barra/Documents/dynamic-code_analyzer/src/tests/test_metrices.cpp || cmake_object_order_depends_target_dynamic_code_analyzer
-  DEP_FILE = CMakeFiles\dynamic_code_analyzer.dir\src\tests\test_metrices.cpp.obj.d
+build CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_matrices.cpp.obj: CXX_COMPILER__dynamic_code_analyzer_Debug C$:/Users/barra/Documents/dynamic-code_analyzer/src/tests/test_matrices.cpp || cmake_object_order_depends_target_dynamic_code_analyzer
+  DEP_FILE = CMakeFiles\dynamic_code_analyzer.dir\src\tests\test_matrices.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\dynamic_code_analyzer.dir
   OBJECT_FILE_DIR = CMakeFiles\dynamic_code_analyzer.dir\src\tests
@@ -111,7 +111,7 @@ build CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_metrices.cpp.obj: CXX_
 #############################################
 # Link the executable dynamic_code_analyzer.exe
 
-build dynamic_code_analyzer.exe: CXX_EXECUTABLE_LINKER__dynamic_code_analyzer_Debug CMakeFiles/dynamic_code_analyzer.dir/src/main.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Analyzer.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Parser.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Metrices.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/utiles/Logger.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/utiles/FileManager.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_analyzer.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_parser.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_metrices.cpp.obj
+build dynamic_code_analyzer.exe: CXX_EXECUTABLE_LINKER__dynamic_code_analyzer_Debug CMakeFiles/dynamic_code_analyzer.dir/src/main.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Analyzer.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Parser.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/analyzer/Matrices.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/utiles/Logger.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/utiles/FileManager.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_analyzer.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_parser.cpp.obj CMakeFiles/dynamic_code_analyzer.dir/src/tests/test_matrices.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dynamic_code_analyzer.dir
