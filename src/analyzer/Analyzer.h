@@ -22,19 +22,17 @@ public:
 
     // public methods for analysis
     void analyzeCode(std::string& code);
+    void parseCode(std::string& code);
     void collectMetrics();
 
 
 private:
     int memoryUsage{0}; // memory usage
     std::vector<std::string> issues; // detect issues
-    Parser parser;
+    Parser parser;  // instance of the parse class
 
 };
 
-void CodeAnalyzer::analyzeCode(std::string &code) {
-    collectMetrics();
-}
 
 void CodeAnalyzer::collectMetrics() {
     // decide what metrics we should collect
